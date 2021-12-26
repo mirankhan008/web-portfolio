@@ -20,7 +20,7 @@ h1 {
 
 .half-width img {
     width: 100%;
-    margin-top: 150px;
+    padding-top: 150px;
 }
 
 .top-banner {
@@ -30,6 +30,7 @@ h1 {
 
 section {
     height: 100vh;
+    padding-bottom: 50px;
 }
 
 .link-button {
@@ -41,4 +42,33 @@ section {
     padding: 6px 30px;
     color: white;
     font-weight: bold;
+}
+
+
+/*/ Middle banner /*/
+
+.middle-banner {
+    background-image: url("images/dream-bg.png");
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    color: dimgray;
+}
+
+.half-width1 img {
+    width: 100%;
+}
+
+.half-width1 {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
 }
