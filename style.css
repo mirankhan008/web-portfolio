@@ -7,7 +7,7 @@ h1 {
     font-size: 40px;
 }
 
-.name-highlight {
+.orange-highlight {
     color: orange;
 }
 
@@ -71,4 +71,40 @@ p {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+}
+
+
+/*/Experience Area/*/
+
+.experience-area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    border-radius: 5px;
+    height: 60%;
+    background-color: transparent;
+}
+
+#left-box-style {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(253, 199, 178), tomato);
+    border-image-slice: 1;
+}
+
+#right-box-style {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: orange;
 }
